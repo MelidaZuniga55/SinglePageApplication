@@ -21,33 +21,34 @@ function App() {
       title: "Bohemian Rhapsody",
       artist: "Queen",
       duration: "5:55",
-      cover: "🎵",
+      cover: "https://i.scdn.co/image/ab67616d0000b27328581cfe196c266c132a9d62",
       genre: "Rock"
     },
     {
       id: 2,
-      title: "Blinding Lights", 
+      title: "Earned It",
       artist: "The Weeknd",
-      duration: "3:22",
-      cover: "🎵",
-      genre: "Pop"
+      duration: "4:37", // duración aproximada
+      cover: "https://i.ytimg.com/vi/1mOGF169Eno/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLANgxZTN8nleRmrNLa3WEaPMTIcXw", // puedes reemplazar con la URL de la carátula si quieres una imagen
+      genre: "R&B"
     },
     {
       id: 3,
-      title: "Shape of You",
-      artist: "Ed Sheeran",
-      duration: "3:54",
-      cover: "🎵",
-      genre: "Pop"
+      title: "Margaret",
+      artist: "Lana Del Rey",
+      duration: "3:35", // duración aproximada
+      cover: "https://akamai.sscdn.co/uploadfile/letras/albuns/8/8/0/f/1724891679602733.jpg", // puedes reemplazar con la URL de la portada si quieres imagen real
+      genre: "Indie/Pop"
     },
-    {
+
+      {
       id: 4,
-      title: "Bad Guy",
-      artist: "Billie Eilish",
-      duration: "3:14",
-      cover: "🎵",
-      genre: "Electrónica"
-    }
+      title: "Sonata Patética",
+      artist: "Ludwig van Beethoven",
+      duration: "7:25", // duración aproximada del primer movimiento
+      cover: "https://m.media-amazon.com/images/I/51R8CXz90mL.jpg", // puedes reemplazar con la portada o una imagen representativa
+      genre: "Clásica"
+      }
   ];
 
   if (!user) {

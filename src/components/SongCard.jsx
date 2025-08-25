@@ -1,8 +1,11 @@
-
 const SongCard = ({ song, onPlay }) => {
   return (
     <div className="song-card" onClick={() => onPlay(song)}>
-      <img src={song.cover} alt={song.title} />
+      <img 
+        src={song.cover} 
+        alt={song.title} 
+        className="song-cover-img"  // ✅ agregamos la clase de CSS
+      />
       <div className="song-info">
         <h4>{song.title}</h4>
         <p>{song.artist}</p>
